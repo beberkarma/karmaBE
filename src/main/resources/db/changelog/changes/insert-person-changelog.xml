@@ -10,7 +10,12 @@
         <insert tableName="person">
             <column name="id" valueNumeric="1"/>
             <column name="name" value="Tom"/>
-            <column name="address" value="USA"/>
+            <column name="address" value="3 place de la Baleine 69005 Lyon"/>
+        </insert>
+        <insert tableName="person">
+            <column name="id" valueNumeric="2"/>
+            <column name="name" value="Léa"/>
+            <column name="address" value="1 rue des merles 26000 Valence"/>
         </insert>
     </changeSet>
 </databaseChangeLog>
