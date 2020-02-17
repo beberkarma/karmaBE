@@ -16,9 +16,14 @@ public class PersonController {
         this.personRepository = personRepository;
     }
 
-    @GetMapping("/getall")
-    public List<Person> all() {
+    @GetMapping("/getAll")
+    public List<Person> getAll() {
         return personRepository.findAll();
+    }
+
+    @GetMapping("/get/{personId}")
+    public Person get(@PathVariable Long personId) throws Exception {
+        return personRepository.findById(personId).orElseThrow(Exception::new);
     }
 
     @PostMapping("/create")
