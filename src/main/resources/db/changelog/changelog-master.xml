@@ -7,6 +7,6 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
     <include file="/db/changelog/changes/create-person-changelog.xml"/>
+    <include file="/db/changelog/changes/20200218-alias-unique-person-changelog.xml"/>
     <include file="/db/changelog/changes/insert-person-changelog.xml"/>
-    <include file="/db/changelog/changes/20200218-name-unique-person-changelog.xml"/>
 </databaseChangeLog>

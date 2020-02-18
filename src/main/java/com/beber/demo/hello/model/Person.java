@@ -16,4 +16,7 @@ public class Person {
     private Long id;
     private String address;
     private String name;
+    private String firstname;
+    private String alias;
+    private int age;
 }

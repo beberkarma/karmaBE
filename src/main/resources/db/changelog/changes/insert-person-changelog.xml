@@ -9,12 +9,18 @@
     <changeSet author="admin" id="2">
         <insert tableName="person">
             <column name="id" valueNumeric="1"/>
-            <column name="name" value="Tom"/>
+            <column name="firstname" value="Tom"/>
+            <column name="name" value="Walker"/>
+            <column name="alias" value="towk69"/>
+            <column name="age" value="36"/>
             <column name="address" value="3 place de la Baleine 69005 Lyon"/>
         </insert>
         <insert tableName="person">
             <column name="id" valueNumeric="2"/>
-            <column name="name" value="Léa"/>
+            <column name="firstname" value="Léa"/>
+            <column name="name" value="Walker"/>
+            <column name="alias" value="lewk69"/>
+            <column name="age" value="34"/>
             <column name="address" value="1 rue des merles 26000 Valence"/>
         </insert>
     </changeSet>
